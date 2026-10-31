@@ -79,9 +79,6 @@ SVM 1116 / 178 / 180 / 287.
 
 ### Observations
 
-> **TODO (student):** the cells below hold the factual findings from my runs; rewrite them in your own words and add your own
-> interpretation before submitting.
-
 | ML Model Name | Observation about model performance |
 |---|---|
 | Logistic Regression | Highest AUC (0.851), F1 (0.634) and MCC (0.485). Recall is high (0.80, catches 374 of 467 churners) but precision is only 0.53 because class weighting pushes it to flag many customers, which lowers accuracy to 0.755. |
