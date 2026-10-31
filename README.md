@@ -24,8 +24,7 @@ Gaussian Naive Bayes, SVM) to predict whether a customer will churn, and exposes
   is used for Logistic Regression, Decision Tree and SVM to counter the class imbalance.
 
 ## c. GitHub repository link
-https://github.com/pradeepudi85bits/telco-churn-ml/edit/main/README.md
-
+https://github.com/pradeepudi85bits/telco-churn-ml
 Live Streamlit app: 
 https://telco-churn-ml-appgxofkccezrageu4mm6gb.streamlit.app/?utm_source=chatgpt.com
 
