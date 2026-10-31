@@ -24,9 +24,9 @@ Gaussian Naive Bayes, SVM) to predict whether a customer will churn, and exposes
   is used for Logistic Regression, Decision Tree and SVM to counter the class imbalance.
 
 ## c. GitHub repository link
-https://github.com/pradeepudi85bits/telco-churn-ml
-Live Streamlit app: 
-https://telco-churn-ml-appgxofkccezrageu4mm6gb.streamlit.app/
+**GitHub Repository:** https://github.com/pradeepudi85bits/telco-churn-ml
+
+**Live Streamlit Application:** https://telco-churn-ml-appgxofkccezrageu4mm6gb.streamlit.app/
 
 ```
 telco-churn-ml/
@@ -82,7 +82,7 @@ SVM 1116 / 178 / 180 / 287.
 |---|---|
 | Logistic Regression | Highest AUC (0.851), F1 (0.634) and MCC (0.485). Recall is high (0.80, catches 374 of 467 churners) but precision is only 0.53 because class weighting pushes it to flag many customers, which lowers accuracy to 0.755. |
 | Decision Tree | AUC 0.818, F1 0.610, MCC 0.449. Recall 0.73 and precision 0.52, so it behaves like Logistic Regression with slightly weaker ranking quality (lower AUC). |
-| kNN | Highest accuracy (0.804) and precision for the non-SVM models (0.653), but recall is low (0.559): it misses 206 of 467 churners. Accuracy looks best mostly because it predicts "stay" more often. |
+| kNN | Highest accuracy (0.804) and highest precision overall (0.653), but recall is relatively low (0.559). It misses 206 of the 467 actual churners. Its higher accuracy comes with a trade-off in identifying customers likely to churn. |
 | Naive Bayes | Highest recall (0.837, only 76 churners missed) but lowest precision (0.469) and accuracy (0.705); 443 false alarms. Lowest MCC (0.438). |
 | Support Vector Machine | Balanced precision (0.617) and recall (0.615), F1 0.616 (second best) and accuracy 0.797, but AUC (0.824) is below Logistic Regression and kNN. |
 | **Overall winner for my dataset** | **Logistic Regression** - best AUC, F1 and MCC (the metrics that matter most with an imbalanced target). If plain accuracy or precision matters more, kNN or SVM are the alternatives. |
@@ -97,9 +97,10 @@ SVM 1116 / 178 / 180 / 287.
 - Permutation feature-importance chart
 - Cut-off explorer (precision / recall / F1 vs cut-off)
 - Table of highest-risk customers and downloadable predictions
-
+  
 ## Deployment
-The machine learning application was deployed using Streamlit Community Cloud. The application is connected to my GitHub repository and can be accessed through the link below.
+
+The Churn Radar machine learning application was deployed using Streamlit Community Cloud and integrated with the GitHub repository. The application provides an interactive interface for customer churn prediction, model evaluation and identification of high-risk customers.
 
 Live Application:
 https://telco-churn-ml-appgxofkccezrageu4mm6gb.streamlit.app/
