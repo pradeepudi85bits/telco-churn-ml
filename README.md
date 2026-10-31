@@ -102,4 +102,7 @@ SVM 1116 / 178 / 180 / 287.
 - Table of highest-risk customers and downloadable predictions
 
 ## Deployment
-Push to GitHub -> https://streamlit.io/cloud -> New app -> repo, branch `main`, file `app.py` -> Deploy.
+The machine learning application was deployed using Streamlit Community Cloud. The application is connected to my GitHub repository and can be accessed through the link below.
+
+Live Application:
+https://telco-churn-ml-appgxofkccezrageu4mm6gb.streamlit.app/
