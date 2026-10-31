@@ -9,7 +9,7 @@ Gaussian Naive Bayes, SVM) to predict whether a customer will churn, and exposes
 ## b. Dataset description
 - **Source:** Kaggle - *Telco Customer Churn* (IBM sample data), `WA_Fn-UseC_-Telco-Customer-Churn.csv`.
 - **Task:** binary classification, target `Churn` (Yes = 1, No = 0).
-- **Size:** 7,043 customers; 20 raw input columns (+ `customerID`, dropped, + target) - above the minimum of 12 features / 500 rows.
+- **Size:** 7,043 customers; 219 original predictor columns, plus customerID and the Churn target (21 columns in total).- above the minimum of 12 features / 500 rows.
 - **Class balance:** 73.5 % stay / 26.5 % churn (imbalanced).
 - **Raw features:** gender, SeniorCitizen, Partner, Dependents, tenure, PhoneService, MultipleLines, InternetService, OnlineSecurity,
   OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod,
@@ -24,9 +24,9 @@ Gaussian Naive Bayes, SVM) to predict whether a customer will churn, and exposes
   is used for Logistic Regression, Decision Tree and SVM to counter the class imbalance.
 
 ## c. GitHub repository link
-https://github.com/pradeepudi85bits/telco-churn-m
+https://github.com/pradeepudi85bits/telco-churn-ml
 Live Streamlit app: 
-https://telco-churn-ml-appgxofkccezrageu4mm6gb.streamlit.app/?utm_source=chatgpt.com
+https://telco-churn-ml-appgxofkccezrageu4mm6gb.streamlit.app/
 
 ```
 telco-churn-ml/
