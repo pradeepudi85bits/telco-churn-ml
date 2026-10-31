@@ -1,0 +1,25 @@
+{
+  "Logistic Regression": {
+    "C": 1,
+    "cv_f1": 0.6297
+  },
+  "Decision Tree": {
+    "max_depth": 6,
+    "min_samples_leaf": 50,
+    "cv_f1": 0.6333
+  },
+  "kNN": {
+    "n_neighbors": 31,
+    "weights": "uniform",
+    "cv_f1": 0.5807
+  },
+  "Naive Bayes": {
+    "var_smoothing": 0.001,
+    "cv_f1": 0.5968
+  },
+  "Support Vector Machine": {
+    "C": 1,
+    "gamma": "scale",
+    "cv_f1": 0.6203
+  }
+}
