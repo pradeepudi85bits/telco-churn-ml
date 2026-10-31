@@ -9,7 +9,7 @@ Gaussian Naive Bayes, SVM) to predict whether a customer will churn, and exposes
 ## b. Dataset description
 - **Source:** Kaggle - *Telco Customer Churn* (IBM sample data), `WA_Fn-UseC_-Telco-Customer-Churn.csv`.
 - **Task:** binary classification, target `Churn` (Yes = 1, No = 0).
-- **Size:** 7,043 customers; 219 original predictor columns, plus customerID and the Churn target (21 columns in total).- above the minimum of 12 features / 500 rows.
+- **Size:** 7,043 customers; 19 original predictor columns, plus customerID and the Churn target (21 columns in total).- above the minimum of 12 features / 500 rows.
 - **Class balance:** 73.5 % stay / 26.5 % churn (imbalanced).
 - **Raw features:** gender, SeniorCitizen, Partner, Dependents, tenure, PhoneService, MultipleLines, InternetService, OnlineSecurity,
   OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod,
